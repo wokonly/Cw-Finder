@@ -28,6 +28,10 @@ for filename in os.listdir(directory):
                 if (file_info.filename.endswith(".class") or file_info.filename.endswith(".java")) and "NoLoadingScreen" in file_info.filename:
                     print(f"{filename} contains NoLoadingScreen used by hacked clients")
                     cheat_filename = filename
+
+                if (file_info.filename.endswith(".json") or file_info.filename.endswith(".json")) and "prestige.mixins" in file_info.filename:
+                    print(f"{filename} contains Prestige Client mixins")
+                    cheat_filename = filename
                     
 if cheat_filename:
     print(" ")
