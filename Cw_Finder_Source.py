@@ -3,7 +3,7 @@ import zipfile
 
 import ctypes
 
-ctypes.windll.kernel32.SetConsoleTitleW("CW Finder | By Wok")
+ctypes.windll.kernel32.SetConsoleTitleW("CW Finder | By Wok and Snrios | V1.1")
 
 directory = f'C:\\Users\\{os.getlogin()}\\AppData\\Roaming\\.minecraft\\mods'
 
